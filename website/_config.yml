@@ -1,0 +1,24 @@
+username: timvideos
+branch: master
+
+destination: umc-live.com
+
+safe: false
+lsi: false
+
+markdown: kramdown
+kramdown:
+  entity_output: as_input
+exclude: [Gemfile, Gemfile.lock, planet.yml, vendor, .travis.yml, Rakefile, README.md, DEPLOY.md, CODE_OF_CONDUCT.md]
+auto_permalinks: true 
+name: Tim Videos - Live Event Streaming - Developers Website
+description: News, information, instructions and how to contribute
+url: https://code.timvideos.us
+permalink: pretty
+highlighter: pygments
+
+edit_interface_link: 'https://editor.timvideos.us/#timvideos/website/edit/master/((filename))'
+
+prose:
+  siteurl: 'https://code.timvideos.us'
+  relativeLinks: 'https://code.timvideos.us/links.jsonp'

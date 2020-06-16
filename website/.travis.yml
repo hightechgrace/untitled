@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.2
+sudo: false
+cache: bundler
+install:
+- env | sort
+- bundle install
+script: bundle exec rake site:deploy
